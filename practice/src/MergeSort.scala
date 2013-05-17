@@ -1,5 +1,7 @@
 import math.Ordering
 object MergeSort {
+  def main(args: Array[String]) = println(msort(List(2, 1, 5, 2, 76, 7, 2)))
+
   def msort[T](list: List[T])(implicit ord: Ordering[T]): List[T] = {
     val mid = list.length / 2
     if (mid == 0) list
