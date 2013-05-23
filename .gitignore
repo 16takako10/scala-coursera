@@ -1,8 +1,5 @@
+# Custom
 .metadata/
-.DS_Store
-
-*.class
-*.log
 
 # sbt specific
 dist/*
